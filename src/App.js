@@ -7,7 +7,7 @@ function App({ city }) {
   const [currentWeather, setCurrentWeather] = useState(null);
   const [forecastWeather, setForecastWeather] = useState(null);
   const img =
-    "https://img.freepik.com/free-photo/misty-carpathian-mountain-landscape-with-fir-forest-tops-trees-sticking-out-fog_146671-18437.jpg?w=1380&t=st=1676290465~exp=1676291065~hmac=1931a3ebfd6bec09814b74ea884811da28aa269a607d2de823140e4d4fd83c46";
+    "https://images.unsplash.com/photo-1604428803896-c1e5151d4128?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80";
 
   const WEATHER_API_URL = "https://api.openweathermap.org/data/2.5";
   const WEATHER_API_KEY = "46c5c814b8f56371f582ac0d63a7d64d";
